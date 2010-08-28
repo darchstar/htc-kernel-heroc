@@ -67,6 +67,7 @@ struct melfas_i2c_rmi_platform_data {
 	int virtual_key_num;
 	int intr;
 	int wake_up;
+	int tp_en
 };
 
 #endif /* _LINUX_melfas_I2C_tsi_H */
